@@ -2,7 +2,7 @@ import * as aws from "@pulumi/aws";
 
 // Create an AWS resource (S3 Bucket)
 const bucket = new aws.s3.Bucket("primeiro-bucket", {
-    bucket: "primeiro-bucket",
+    bucket: "primeiro-bucket-ftr",
     tags: {
         IAC: "true",
     }
